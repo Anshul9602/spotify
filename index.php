@@ -4,7 +4,7 @@ include('heade.php');
 <body>
     <nav>
         <ul>
-            <li class="brand"><img src="logo.png" alt="Dikans"> DIKANS</li>
+            <li class="brand"><img src="image/logo.png" alt="Dikans"> DIKANS</li>
             <li>Home</li>
             <li>About</li>
         </ul>
@@ -81,7 +81,9 @@ include('heade.php');
             <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Warriyo - Mortals [NCS Release]</span>
         </div>
     </div>
-    <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+
 </body>
-</html>
+<?php
+include('footer.php');
+
+?>
